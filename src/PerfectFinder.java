@@ -43,7 +43,7 @@ public class PerfectFinder {
   }
 
   public static void main(String[] args) {
-    PerfectFinder finder = new PerfectFinder();
+    PerfectFinder finder = new PerfectFinder( );
     List<Long> perfectNumbers = finder.perfectNumbers();
     for (long number : perfectNumbers) {
       System.out.printf("%d%n", number);
